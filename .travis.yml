@@ -13,5 +13,6 @@ addons:
 before_script:
   - npm install -g tslint typescript tsd gulp
   - npm install
+  - tsd install
 script:
   - npm test -- --travis
