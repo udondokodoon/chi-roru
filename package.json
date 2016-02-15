@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers ts:espower-typescript/guess test/*-test.ts",
-    "watch": "mocha --compilers ts:espower-typescript/guess -w test/*-test.ts"
+    "watch": "mocha --compilers ts:espower-typescript/guess -w test/**/*-test.ts -w src/**/*.ts"
   },
   "author": "",
   "license": "ISC",
