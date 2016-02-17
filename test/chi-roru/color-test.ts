@@ -1,6 +1,6 @@
 /// <reference path="../../typings/tsd.d.ts" />
 const assert = require('power-assert');
-import * as Chiroru from "../../src/chi-roru/color";
+import * as Chiroru from "../../src/chi-roru";
 
 describe("Color", function() {
   describe("constructor", ()=> {
