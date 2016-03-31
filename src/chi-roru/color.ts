@@ -10,7 +10,6 @@ export namespace Chiroru {
     rgbaFromString(str: string): string {
       this.hashDriver.update(str, 'utf8');
       var digest = this.hashDriver.digest('hex');
-      console.log(digest);
       return 'rgba(' + [parseInt(digest.substr(0, 2), 16), parseInt(digest.substr(2, 2), 16), parseInt(digest.substr(4, 2), 16)].join(", ") + ", 1.0)" ;
     };   
   };

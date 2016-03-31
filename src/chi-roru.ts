@@ -28,7 +28,6 @@ export namespace Chiroru {
       var ctx = canvas.getContext("2d");
       var color = new Color("md5");
       ctx.fillStyle = color.rgbaFromString(str);
-      console.log(ctx.fillStyle);
       ctx.fillRect(0, 0, 128, 128);
       ctx.fillStyle = 'rgba(255, 255, 255, 1.0)';
       //ctx.strokeStype = 'rgba(0, 0, 0, 1.0)';
