@@ -1,0 +1,14 @@
+{
+  "name": "chi-roru",
+  "version": false,
+  "ambientDependencies": {
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#2e7a477ac2b6471055aa6e0e56b333e8f327d6b7",
+    "power-assert": "github:DefinitelyTyped/DefinitelyTyped/power-assert/power-assert.d.ts#2e7a477ac2b6471055aa6e0e56b333e8f327d6b7",
+    "power-assert-formatter": "github:DefinitelyTyped/DefinitelyTyped/power-assert-formatter/power-assert-formatter.d.ts#2e7a477ac2b6471055aa6e0e56b333e8f327d6b7",
+    "empower": "github:DefinitelyTyped/DefinitelyTyped/empower/empower.d.ts#2e7a477ac2b6471055aa6e0e56b333e8f327d6b7",
+    "sinon": "github:DefinitelyTyped/DefinitelyTyped/sinon/sinon.d.ts#2e7a477ac2b6471055aa6e0e56b333e8f327d6b7",
+    "restify": "github:DefinitelyTyped/DefinitelyTyped/restify/restify.d.ts#3d2f9971a107e2eee2de3ec5318f5c54071e16ed",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#3d2f9971a107e2eee2de3ec5318f5c54071e16ed",
+    "bunyan": "github:DefinitelyTyped/DefinitelyTyped/bunyan/bunyan.d.ts#3d2f9971a107e2eee2de3ec5318f5c54071e16ed"
+  }
+}

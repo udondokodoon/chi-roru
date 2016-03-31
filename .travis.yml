@@ -17,8 +17,8 @@ addons:
       - libgif-dev
       - build-essential
 before_script:
-  - npm install -g tslint typescript tsd gulp
+  - npm install -g tslint typescript gulp
   - npm install
-  - tsd install
+  - typings install
 script:
   - npm test -- --travis
