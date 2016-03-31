@@ -20,3 +20,12 @@ $ tsc app.ts
 $ node app.js
 ```
 
+## Debug
+
+```
+$ sudo npm install -g node-inspector
+$ node --debug app.js & 
+$ node-inspector --web-port=8000
+```
+chromeで http://192.168.33.10:8000/?port=5858を開く
+

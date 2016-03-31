@@ -3,25 +3,29 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "port": 8080
+  },
   "scripts": {
-    "test": "mocha --compilers ts:espower-typescript/guess test/*-test.ts",
+    "start": "node build/app.js",
+    "test": "mocha --compilers ts:espower-typescript/guess test/**/*-test.ts",
     "watch": "mocha --compilers ts:espower-typescript/guess -w test/**/*-test.ts -w src/**/*.ts",
-    "build": "tsc --module commonjs app.ts"
+    "build": "browserify app.ts -p tsify --noImplicitAny > build/app.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "espower-typescript": "^3.0.0",
-    "gulp": "^3.9.0",
-    "gulp-typescript": "^2.10.0",
     "mocha": "^2.3.4",
     "power-assert": "^1.2.0",
     "sinon": "^1.17.2",
     "typescript-require": "^0.2.9-1"
   },
   "dependencies": {
-    "canvas": "^1.3.9",
+    "browserify": "^13.0.0",
+    "canvas": "^1.3.10",
     "restify": "^4.0.3",
-    "typescript": "^1.7.5"
+    "tsify": "^0.13.2",
+    "typescript": "^1.8.2"
   }
 }
