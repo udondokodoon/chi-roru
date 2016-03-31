@@ -29,3 +29,8 @@ $ node-inspector --web-port=8000
 ```
 chromeで http://192.168.33.10:8000/?port=5858を開く
 
+## Test
+
+```
+$ npm run watch
+```
